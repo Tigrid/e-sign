@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-sign | Home</title>
+    <link rel="shortcut icon" href="./images/icons/meta-icon.png" type="image/png" />
+
+
+    <!-- ajax requst  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- styles  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Slick slider-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- Menu Icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="wrapper">
+            <!-- Logo -->
+            <h1>
+                <a href="#">
+                    <img src="./images/icons/logo 022.png" alt="logo" />
+                </a>
+            </h1>
+
+            <div class="nav-list">
+                <a href="javascript:void(0)">Home</a>
+                <a href="./home/about.html">About Us</a>
+                <a href="javascript:void(0)">Services</a>
+                <a href="javascript:void(0)">Contact</a>
+                <div class="contact">
+                    <a class="container" href="javascript:void(0)">
+                        <img src="./images/icons/phone.svg" alt="Phone">
+                    </a>
+                    <a href="javascript:void(0)">Get in touch</a>
+                </div>
+            </div>
+
+            <div class="mobile-menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="icon">
+                    <i class='bx bx-menu' style='color:#ea222d' id="menu-icon"></i>
+                    <i class='bx bx-x' style='color:#ea222d' id="close-icon"></i>
+                </label>
+                <nav class="navbar">
+                    <a href="./index.html">Home</a>
+                    <a href="./home/about.html">About Us</a>
+                    <a href="javascript:void(0)">Services</a>
+                    <a href="javascript:void(0)">Contact</a>
+                </nav>
+            </div>
+    </header>
+    <!-- spotlight-->
+    <section id="spotlight">
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="left">
+                    <div class="content">
+                        <h1>Explore the World <br>
+                            with Confidence.</h1>
+                        <p>seamless travel documentation for your dream gateway.</p>
+                    </div>
+                    <div class="bottom">
+                        <button class="prime">
+                            <a href="javascript:void(0)">Get started</a> <span><i
+                                    class='bx bx-right-arrow-alt bx-fade-left'></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img-container">
+                        <img src="./images/banner home .jpg" alt="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- #spotlight > End -->
+
+    <!-- Spotlight Mobile view  -->
+    <section id="M-spotlight">
+        <div class="wrapper">
+            <div class="content">
+                <h1>Explore the World with Confidence.</h1>
+                <p>Seamless Travel Documentation for Your Dream Getaways.</p>
+                <div class="bottom">
+                    <button>
+                        <a href="javascript:void(0)">Get started</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Mobile spotlight > End  -->
+
+    <div class="top-container ">
+        <ul class="wrapper">
+            <li>
+                <div class="icon"><img src="./images/icons/flight-abt.png" alt="flight" /></div>
+            </li>
+            <li>
+                <div class="icon"><img src="./images/icons/passport-abt.png" alt="passport" /></div>
+            </li>
+            <li>
+                <div class="icon"><img src="./images/icons/umrah-abt.png" alt="umrah" /></div>
+            </li>
+            <li>
+                <div class="icon"><img src="./images/icons/visa-abt.png" alt="visa" /></div>
+            </li>
+            <li>
+                <div class="icon"><img src="./images/icons/holiday-abt.png" alt="holiday" /></div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- About section Mobile view  -->
+    <div class="m-about">
+        <div class="wrapper">
+            <!-- MOBILE VIEW OVERLAY SERVICE BOX  -->
+
+
+            <div class="main-container">
+                <h5>About Us</h5>
+                <div class="bg-container">
+                    <img src="./images/mobile about banner 1.png" alt="Image" />
+                </div>
+                <p>
+                    Esign stands as your reliable partner in the realm of travel documentation. With our
+                    extensive
+                    experience in the industry, we specialize in offering comprehensive services related to
+                    passports
+                    and visas, encompassing stamping, attestations, documentation, and certificate
+                    attestation.
+                </p>
+                <p>
+                    Our unwavering dedication to precision and excellence positions us as a symbol of
+                    trustworthiness,
+                    ensuring that your travel plans unfold seamlessly, without stress, and in full
+                    compliance
+                    with all
+                    legal prerequisites.
+                </p>
+                <div class="bottom">
+                    <button>
+                        <a href="javascript:void(0)">Read more</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Facility and Experience section  -->
+    <div id="overlay-card">
+        <div class="top-card">
+            <ul>
+                <li>
+                    <img src="./images/icons/flight.png" alt="Flight" />
+                    <span>Flights</span>
+                </li>
+                <li>
+                    <img src="./images/icons/passport.svg" alt="Passport" />
+                    <span>Passport</span>
+                </li>
+                <li>
+                    <img src="./images/icons/umrah.svg" alt="Umrah" />
+                    <span>Umrah</span>
+                </li>
+                <li>
+                    <img src="./images/icons/hotels.svg" alt="Hotels" />
+                    <span>Hotels</span>
+                </li>
+                <li>
+                    <img src="./images/icons/passport.svg" alt="Visa" />
+                    <span>Visa</span>
+                </li>
+                <li>
+                    <img src="./images/icons/holiday.svg" alt="Holiday" />
+                    <span>Holiday</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="experiance">
+            <ul>
+                <li>
+                    <div class="count-box">
+                        <span class="num" data-val="18">00</span>
+                        <span class="text">Years Of Experience</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="count-box">
+                        <div class="one-count"><span class="num" data-val="2">0</span><span class="one">k+</span>
+                        </div>
+                        <span class="text">Satisfied Customers</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="count-box">
+                        <div class="one-count"><span class="num" data-val="10">00</span><span class="one">k+</span>
+                        </div>
+                        <span class="text">Happy Customers</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="count-box">
+                        <span class="num" data-val="4">0</span>
+                        <span class="text">Overall Rating</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- About-Us section  -->
+    <section id="about">
+        <div class="wrapper">
+            <div class="left">
+                <div class="img-container">
+                    <img src="./images/about-us.png" alt="image" />
+                </div>
+            </div>
+            <div class="right">
+                <h4>About us</h4>
+                <p>Esign stands as your reliable partner in the realm of travel documentation. With our extensive
+                    experience in the industry, we specialize in offering comprehensive services related to passports
+                    and visas, encompassing stamping, attestations, documentation, and certificate attestation.</p>
+                <p>Our unwavering dedication to precision and excellence positions us as a symbol of trustworthiness,
+                    ensuring that your travel plans unfold seamlessly, without stress, and in full compliance with all
+                    legal prerequisites.</p>
+                <div class="bottom">
+                    <button class="prime">
+                        <a href="javascript:void(0)">Get started</a> <span><i
+                                class='bx bx-right-arrow-alt bx-fade-left'></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section><!-- About-Us section  -->
+
+    <!-- Exclusive deal section  -->
+    <section id="exclusive">
+        <div class="wrapper">
+            <div class="top">
+                <h5>Exclusive Deals</h5>
+                <p>Savings That Take You Places – Check Out Our Special Offers</p>
+            </div>
+        </div>
+        <div class="slide-box">
+            <ul id="slider">
+                <li>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./images/Exclusive Deals umrah .png" alt="image" />
+                        </div>
+                        <div class="detailes">
+                            <h6>
+                                Umrah Packages
+                            </h6>
+                            <p>
+                                "Embark on a spiritual journey with our exclusive Umrah packages. Experience a seamless
+                                pilgrimage tailored just for you."
+                            </p>
+                        </div>
+                        <button>
+                            <a href="javascript:void(0)">Click Now</a>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./images/Exclusive Deals family.png" alt="image" />
+                        </div>
+                        <div class="detailes">
+                            <h6>
+                                Special Family Packages
+                            </h6>
+                            <p>
+                                "Create unforgettable family memories with our exclusive family packages. Adventure,
+                                relaxation, and bonding – all wrapped into one."
+                            </p>
+                        </div>
+                        <button>
+                            <a href="javascript:void(0)">Click Now</a>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./images/Exclusive Deals singapore.png" alt="image" />
+                        </div>
+                        <div class="detailes">
+                            <h6>
+                                Singapore Tour Packages
+                            </h6>
+                            <p>
+                                "Discover the wonders of Singapore with our exclusive package. From vibrant culture to
+                                stunning attractions, Singapore awaits."
+
+                            </p>
+                        </div>
+                        <button>
+                            <a href="javascript:void(0)">Click Now</a>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./images/Exclusive Deals umrah .png" alt="image" />
+                        </div>
+                        <div class="detailes">
+                            <h6>
+                                Umrah Packages
+                            </h6>
+                            <p>
+                                "Embark on a spiritual journey with our exclusive Umrah packages. Experience a seamless
+                                pilgrimage tailored just for you."
+                            </p>
+                        </div>
+                        <button>
+                            <a href="javascript:void(0)">Click Now</a>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="./images/Exclusive Deals dubai.png" alt="image" />
+                        </div>
+                        <div class="detailes">
+                            <h6>
+                                Dubai Tour Packages
+                            </h6>
+                            <p>
+                                "Experience the opulence and enchantment of Dubai with our exclusive package. Uncover
+                                the beauty of this dazzling city."
+                            </p>
+                        </div>
+                        <button>
+                            <a href="javascript:void(0)">Click Now</a>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Offer section  -->
+    <section id="offer">
+        <div class="wrapper">
+            <div class="left">
+                <div class="top">
+                    <h5>We offer the best services</h5>
+                    <p>Discover exceptional journeys with our top-tier services.</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="list">
+                            <div class="container">
+                                <img src="./images/icons/flight-ticket.svg" alt="icon" />
+                            </div>
+                            <div class="detailes">
+                                <span>Flight Ticket</span>
+                                <p>Seamless booking, competitive prices, and personalized support for stress-free
+                                    travel.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <div class="container">
+                                <img src="./images/icons/passport-visa.svg" alt="icon" />
+                            </div>
+                            <div class="detailes">
+                                <span>Passport and Visa Facilitation</span>
+                                <p>Expert guidance, timely processing, and document verification for hassle-free travel
+                                    documentation.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <div class="container">
+                                <img src="./images/icons/certificate-attest.png" alt="icon" />
+                            </div>
+                            <div class="detailes">
+                                <span>Certificates Attestation</span>
+                                <p>Efficient document legalization, global reach, and compliance assurance for your
+                                    international needs.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="bottom">
+                        <button class="prime">
+                            <a href="javascript:void(0)">Get started</a> <span><i
+                                    class='bx bx-right-arrow-alt bx-fade-left'></i></span>
+                        </button>
+                    </div>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="img-container">
+                    <img src="./images/best services 1.png" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </section><!-- #Offer > End  -->
+
+    <!-- MOBILE VIEW OFFER VIEW  -->
+    <section id="m-offer">
+        <div class="wrapper">
+            <div class="top">
+                <h5>We offer the best services </h5>
+                <p>Discover exceptional journeys with our top-tier services.</p>
+            </div>
+            <div class="img-container">
+                <img src="./images/mobile best services 1.png" alt="image" />
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <img src="./images/icons/flight-ticket.svg" alt="flight" />
+                        </div>
+                        <div class="item">
+                            <h4>Flight Ticket</h4>
+                            <p>Expert guidance, timely processing, and document verification for hassle-free travel
+                                documentation.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./images/icons/passport-abt.png" alt="passport" />
+                        </div>
+                        <div class="item">
+                            <h4>Passport and Visa Facilitation</h4>
+                            <p>Expert guidance, timely processing, and document verification for hassle-free travel
+                                documentation.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./images/icons/certificate-attest.png" alt="certificate" />
+                        </div>
+                        <div class="item">
+                            <h4>Certificates Attestation</h4>
+                            <p>Efficient document legalization, global reach, and compliance assurance for your
+                                international needs.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button>
+                    <a href="javascript:void(0)">View all</a>
+                </button>
+            </div>
+        </div>
+    </section><!--# MOBILE VIEW OFFER > END -->
+
+    <!-- why us section  -->
+    <section id="why-us">
+        <div class="wrapper">
+            <div class="top">
+                <h5>Why Esign</h5>
+                <p>Your trusted gateway to authentic experiences</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="img-cnt">
+                        <img src="./images/icons/Unparalleled Expertise.svg" alt="icon" />
+                    </div>
+                    <h5>Unparalleled Expertise</h5>
+                    <p>With years of experience and passion, we offer expert guidance to craft unforgettable journeys.
+                    </p>
+                </li>
+                <li>
+                    <div class="img-cnt">
+                        <img src="./images/icons/Hassle-Free Process.svg" alt="icon" />
+                    </div>
+                    <h5>Hassle-Free Process</h5>
+                    <p>Simplify your travel with our user-friendly platform, expert advisors, and seamless booking
+                        process.</p>
+                </li>
+                <li>
+                    <div class="img-cnt">
+                        <img src="./images/icons/Trusted Partners.svg" alt="icon" />
+                    </div>
+                    <h5>Trusted Partners</h5>
+                    <p>We collaborate with trusted airlines, hotels, and local guides to ensure your safety and
+                        satisfaction.</p>
+                </li>
+                <li>
+                    <div class="img-cnt">
+                        <img src="./images/icons/24 Support .svg" alt="icon" />
+                    </div>
+                    <h5>24/7 Support </h5>
+                    <p>Our team is available around the clock to assist you, no matter where or when you need us.
+                    </p>
+                </li>
+            </ul>
+            <!-- Mobile view slider  -->
+            <div class="mobile-view">
+                <div class="content ">
+                    <div class="container why-us">
+                        <div class="list">
+                            <div class="img-cnt">
+                                <img src="./images/icons/Unparalleled Expertise.svg" alt="icon" />
+                            </div>
+                            <h5>Unparalleled Expertise</h5>
+                            <p>With years of experience and passion, we offer expert guidance to craft unforgettable
+                                journeys.
+                            </p>
+                        </div>
+                        <div class="list">
+                            <div class="img-cnt">
+                                <img src="./images/icons/Hassle-Free Process.svg" alt="icon" />
+                            </div>
+                            <h5>Hassle-Free Process</h5>
+                            <p>Simplify your travel with our user-friendly platform, expert advisors, and seamless
+                                booking
+                                process.</p>
+                        </div>
+                        <div class="list">
+                            <div class="img-cnt">
+                                <img src="./images/icons/Trusted Partners.svg" alt="icon" />
+                            </div>
+                            <h5>Trusted Partners</h5>
+                            <p>We collaborate with trusted airlines, hotels, and local guides to ensure your safety and
+                                satisfaction.</p>
+                        </div>
+                        <div class="list">
+                            <div class="img-cnt">
+                                <img src="./images/icons/24 Support .svg" alt="icon" />
+                            </div>
+                            <h5>24/7 Support </h5>
+                            <p>Our team is available around the clock to assist you, no matter where or when you need
+                                us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile slider > End  -->
+
+        </div><!-- Wrapper -->
+    </section><!-- #why us > End -->
+
+
+    <!-- Trending destinations  -->
+    <section id="destination">
+        <div class="wrapper">
+            <div class="top">
+                <h5>Trending Destinations</h5>
+                <p>Explore this season's must-visit places with our expert guidance.</p>
+            </div>
+
+
+            <div class="main">
+                <div class="left">
+                    <ul class="categories">
+                        <li class="selected"><span> Indian </span></li>
+                        <li><span> UAE </span></li>
+                        <li><span> Singapore </span></li>
+                        <li><span> UK </span></li>
+                        <li><span> KSA </span></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div class="pictures-grid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section><!-- # destinations > End -->
+
+    <!-- Get in Touch  -->
+    <section id="connect-us">
+        <div class="wrapper">
+            <div class="left">
+                <div class="top">
+                    <h5>Get In Touch</h5>
+                    <p>Adventure awaits – reach out to start your journey.</p>
+                </div>
+                <form id="submit-form" method="post" action="" name="form1">
+                    <div class="detailes">
+                        <input type="text" id="fname" name="name" placeholder="Name*" required />
+
+                        <input type="text" id="lname" name="email" placeholder="Email*" required />
+
+                        <input type="text" id="mnumber" name="mobile number" placeholder="Phone no*" required />
+
+                    </div>
+                    <div class="msg-container">
+                        <textarea id="subject" name="message" placeholder="Message*"
+                            ></textarea>
+                    </div>
+                    <button>
+                        <a href="javascript:void(0)">Send</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section> <!--Contact Form > End -->
+
+    <!-- Testimonial-->
+    <section id="testimonial">
+        <div class="wrapper">
+            <div class="top">
+                <h5>What Our Clients Say</h5>
+                <p>At Esign, our clients satisfaction is our top priority. Here's what some of our valued customers have
+                    to
+                    say about their experiences with us.</p>
+            </div>
+            <div class="main">
+                <ul class="trending">
+                    <li>
+                        <div class="mid">
+                            <div class="img-container">
+                                <img src="./images/Exclusive Deals family.png" alt="Icon" />
+                            </div>
+                            <div class="detaile">
+                                <span>David P.</span>
+                                <h6>Business Traveler</h6>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Esign is my go-to travel agency for all my business trips. They handle everything
+                                seamlessly,
+                                from flight bookings to hotel accommodations, allowing me to focus on my work. Their
+                                efficiency and 24/7 support have been a game-changer for my business travel needs</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mid">
+                            <div class="img-container">
+                                <img src="./images/Exclusive Deals family.png" alt="Icon" />
+                            </div>
+                            <div class="detaile">
+                                <span>Robin</span>
+                                <h6>vlogger</h6>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Esign made my dream vacation a breeze! The seamless documentation process saved me hours
+                                of paperwork. They truly prioritize client relations and their integrity is unmatched. A
+                                top-notch agency!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mid">
+                            <div class="img-container">
+                                <img src="./images/Exclusive Deals family.png" alt="Icon" />
+                            </div>
+                            <div class="detaile">
+                                <span>Robin</span>
+                                <h6>vlogger</h6>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>Esign made my dream vacation a breeze! The seamless documentation process saved me hours
+                                of paperwork. They truly prioritize client relations and their integrity is unmatched. A
+                                top-notch agency!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--# Testimonial > End-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="top">
+                <div class="one">
+                    <div class="img-container">
+                        <img src="./images/icons/logo footer 1.png" alt="E sign">
+                    </div>
+                    <div class="detailes">
+                        <h5>esign tours and travels </h5>
+                        <p>Your Passport to Adventure, Visa to Explore: We've Got You Covered</p>
+                    </div>
+                </div>
+                <div class="two">
+                    <ul>
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <li><a href="javascript:void(0)">Services</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="connect-us">
+                    <ul>
+                        <li class="location">
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/location.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">Ground Floor, Yaza Arcade, Near Hilite Mall,
+                                    Pantheeramkavu, Calicut, Kerala-673015.</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/location.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">Vallillapuzha, Vazhakkad, Malappuram.</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 808 659 2633</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 974 475 7641</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 889 172 3812</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="container">
+                                <div class="icon"><img src="./images/icons/mail.svg" alt="mail" /></div>
+                                <a href="javascript:void(0)">esigntravels@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="last">
+                <div class="social">
+                    <div>
+                        <a href="javascript:void(0)" class="icon facebook">
+                            <span class="tooltip">Facebook</span>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                        <a href="javascript:void(0)" class="icon instagram">
+                            <span class="tooltip">Instagram</span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </a>
+                        <a href="javascript:void(0)" class="icon youtube">
+                            <span class="tooltip">Youtube</span>
+                            <span><i class="fab fa-youtube"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- Footer > End -->
+
+    <div class="fq-bottom">
+        <span>© All Rights Reserved | Designed And Developed By <a href="javascript:void(0)">TIGRID</a></span>
+    </div>
+
+    <!-- Script  -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/wow.js"></script>
+
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
