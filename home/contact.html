@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-sign | Contact</title>
+    <link rel="shortcut icon" href="./images/icons/meta-icon.png" type="image/png" />
+
+    <!-- styles  -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Menu Icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!--location Style -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    <!-- Location Script -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="wrapper">
+            <!-- Logo -->
+            <h1>
+                <a href="#">
+                    <img src="../images/icons/logo 022.png" alt="logo" />
+                </a>
+            </h1>
+
+            <div class="nav-list">
+                <a href="../index.html">Home</a>
+                <a href="../home/about.html">About Us</a>
+                <a href="javascript:void(0)">Services</a>
+                <a href="javascript:void(0)">Contact</a>
+                <div class="contact">
+                    <a class="container" href="javascript:void(0)">
+                        <img src="../images/icons/phone.svg" alt="Phone">
+                    </a>
+                    <a href="javascript:void(0)">Get in touch</a>
+                </div>
+            </div>
+
+            <div class="mobile-menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="icon">
+                    <i class='bx bx-menu' style='color:#ea222d' id="menu-icon"></i>
+                    <i class='bx bx-x' style='color:#ea222d' id="close-icon"></i>
+                </label>
+                <nav class="navbar">
+                    <a href="javascript:void(0)">Home</a>
+                    <a href="javascript:void(0)">About Us</a>
+                    <a href="javascript:void(0)">Services</a>
+                    <a href="javascript:void(0)">Contact</a>
+                </nav>
+            </div>
+    </header>
+
+    <!-- Swection Contact Home page  -->
+    <section id="contact-home">
+    </section>
+
+
+    <!-- Contact Page form  -->
+
+    <section id="connect">
+        <div class="wrapper">
+            <div class="top">
+                <h5>Contact</h5>
+            </div>
+            <div class="middle">
+                <div class="left">
+                    <div class="connect-us">
+                        <ul>
+                            <li class="location">
+                                <div class="container">
+                                    <span><i class='bx bxs-map'></i></span>
+                                    <a href="javascript:void(0)">Ground Floor, Yaza Arcade, Near Hilite Mall,
+                                        Pantheeramkavu, Calicut, Kerala-673015.</a>
+                                </div>
+                                <div class="container">
+                                    <span><i class='bx bxs-map'></i></span>
+                                    <a href="javascript:void(0)">Vallillapuzha, Vazhakkad, Malappuram.</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="container">
+                                    <span><i class='bx bx-mobile'></i></span>
+                                    <a href="javascript:void(0)">+91 808 659 2633</a>
+                                </div>
+                                <div class="container">
+                                    <span><i class='bx bx-mobile'></i></span>
+                                    <a href="javascript:void(0)">+91 974 475 7641</a>
+                                </div>
+                                <div class="container">
+                                    <span><i class='bx bx-mobile'></i></span>
+                                    <a href="javascript:void(0)">+91 889 172 3812</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <div class="container">
+                                    <span><i class='bx bxs-envelope'></i></span>
+                                    <a href="javascript:void(0)">esigntravels@gmail.com</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <h5>Send Us A Message</h5>
+                    </div>
+                    <form id="submit-form" method="post" action="" name="form1">
+                        <div class="detailes">
+                            <input type="text" id="fname" name="name" placeholder="Name*" required />
+
+                            <input type="text" id="lname" name="email" placeholder="Email*" required />
+
+                            <input type="text" id="mnumber" name="mobile number" placeholder="Phone no*" required />
+
+                            <input type="text" id="lname" name="location" placeholder="Location*" required />
+
+
+                        </div>
+                        <div class="msg-container">
+                            <textarea id="subject" name="message" placeholder="Message*" 
+                                style="width: 100%;"></textarea>
+                        </div>
+                        <button>
+                            <a href="">Send</a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Location map section -->
+    <section id="location">
+        <div class="wrapper">
+            <div class="map-container">
+                <div id="G-map"></div>
+            </div>
+        </div>
+    </section> <!-- Section # Location map > End  -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="top">
+                <div class="one">
+                    <div class="img-container">
+                        <img src="../images/icons/logo footer 1.png" alt="E sign">
+                    </div>
+                    <div class="detailes">
+                        <h5>esign tours and travels </h5>
+                        <p>Your Passport to Adventure, Visa to Explore: We've Got You Covered</p>
+                    </div>
+                </div>
+                <div class="two">
+                    <ul>
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">About Us</a></li>
+                        <li><a href="javascript:void(0)">Services</a></li>
+                        <li><a href="javascript:void(0)">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="connect-us">
+                    <ul>
+                        <li class="location">
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/location.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">Ground Floor, Yaza Arcade, Near Hilite Mall,
+                                    Pantheeramkavu, Calicut, Kerala-673015.</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/location.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">Vallillapuzha, Vazhakkad, Malappuram.</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 808 659 2633</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 974 475 7641</a>
+                            </div>
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/contact.svg" alt="phone" /></div>
+                                <a href="javascript:void(0)">+91 889 172 3812</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="container">
+                                <div class="icon"><img src="../images/icons/mail.svg" alt="mail" /></div>
+                                <a href="javascript:void(0)">esigntravels@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="last">
+                <div class="social">
+                    <div>
+                        <a href="javascript:void(0)" class="icon facebook">
+                            <span class="tooltip">Facebook</span>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                        <a href="javascript:void(0)" class="icon instagram">
+                            <span class="tooltip">Instagram</span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </a>
+                        <a href="javascript:void(0)" class="icon youtube">
+                            <span class="tooltip">Youtube</span>
+                            <span><i class="fab fa-youtube"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- Footer > End -->
+
+    <div class="fq-bottom">
+        <span>© All Rights Reserved | Designed And Developed By <a href="javascript:void(0)">TIGRID</a></span>
+    </div>
+
+    <!-- Scripts Here-->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../js/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        var map = L.map('G-map', {
+            center: [11.244478632266546, 75.96044145404203],
+            zoom: 13,
+            layers: [osm, cities, streets]
+        });
+
+
+    </script>
+</body>
+
+</html>
