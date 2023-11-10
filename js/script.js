@@ -120,64 +120,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pictures = [
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft2.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcRCHq5sfoZSceeJhBJOlt2YPx6umIaxsHFPTXSMIgqR86RwMXerY7Z4rPL_cKgtf-KH&psig=AOvVaw3O58JuLQQt_sIBVbZApSDp&ust=1698932895555000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMjCoLr4ooIDFQAAAAAdAAAAABAh',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'indian',
             title: 'Mumbai'
         },
         {
-            url: 'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRnSNGlIS6nGciXgK6CTsoffGoySTXHphacLdhb9h4o3BAAUQnusTZ40XD1ELqloNqP',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'indian',
             title: 'Bengaluru'
         },
 
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcQPayAFx9Lw3QRFGGzqOaMHSlZEqtuKLgDm2Byi9G8VyrC29uzw9kMut2kXx47fMf0e&psig=AOvVaw3O58JuLQQt_sIBVbZApSDp&ust=1698932895555000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMjCoLr4ooIDFQAAAAAdAAAAABA9',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'indian',
             title: 'Jaipur'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcTUB5A2iYC8oAPbLdUYjBZrIU5V3E9O0IBZVQaP2QpZBW5R5r-vgwxDiN0qEc9SliUC&psig=AOvVaw3O58JuLQQt_sIBVbZApSDp&ust=1698932895555000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMjCoLr4ooIDFQAAAAAdAAAAABBb',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'indian',
             title: 'Hyderabad'
         },
         {
-            url: 'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQrCDCNAAaQK_s3U3nSB-YsR599ZmxudNoiDQBlzAO1TW-W4BWFczkEX_Eq1MrUFdju',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uae',
             title: 'Abu Dhabi'
         },
         {
-            url: 'http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTnavcE0R1cW9vbZSJU9A_92W41dYEqmnQRVz51osw9lq-dYLXMRz2uqIIL1LrWzvQN',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uae',
             title: 'Dubai'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft2.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcSp62RfsFVsdDCFiGIap-QKUb18tNtRvEAmzquSFwzLv3djKCdJaXI-UY98qjvaxGFZ&psig=AOvVaw3MHKc4xJwn9X92Gd_ajLxd&ust=1698931087891000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDIra30ooIDFQAAAAAdAAAAABAM',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uae',
             title: 'Ajman'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft2.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcToUOg0f3oa39huiK_Pp4gsel2IqZVPVaUeQkAG1TTOueVBlK2qzUE6O_gdNBAaJL9u&psig=AOvVaw3MHKc4xJwn9X92Gd_ajLxd&ust=1698931087891000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDIra30ooIDFQAAAAAdAAAAABAQ',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uae',
             title: 'Ras Al-Khaimah'
         }, {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcTSc852O_G-mNQCji1Zk8qpoyT9Rp9NlepS24aWFWa76fv2FGfuy9GB6bEvdKvO6EVO&psig=AOvVaw3MHKc4xJwn9X92Gd_ajLxd&ust=1698931087891000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDIra30ooIDFQAAAAAdAAAAABAU',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uae',
             title: 'Sharjah'
         }, {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcRc2vVLxRt1zfPyuDgylOIyZWzfwHmwJSMr087seDgWLN1wLGDpWuujIKgmo9KioaAf&psig=AOvVaw2zO8M7mimhAQo2s-3j1ybi&ust=1698935573770000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNibjq-Co4IDFQAAAAAdAAAAABAX',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'singapore',
             title: 'Garden by the Bay'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft0.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcRc9LhzWqCT6zhU7r2COIf-fRK_A1gRYeMGG1cecsywAM6llg7mFZ447FtsUwOpc1om&psig=AOvVaw2zO8M7mimhAQo2s-3j1ybi&ust=1698935573770000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNibjq-Co4IDFQAAAAAdAAAAABAQ',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'singapore',
             title: 'Singapore Flyer'
         }, {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft2.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcSExE8swFtui2JBmujqiDqA9CFwZ3G7g34As7emtp7WaJR31T-3n_lSKdEUQu_swmD8&psig=AOvVaw2zO8M7mimhAQo2s-3j1ybi&ust=1698935573770000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNibjq-Co4IDFQAAAAAdAAAAABAg',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'singapore',
             title: 'Chinatown'
         }, {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft0.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcSq7cH4eYxOjG0EuO5SOYOyR6diCCdn5GJ7p21j8ZBbvd3vtu_2EatOsukOP6XRkBcy&psig=AOvVaw2zO8M7mimhAQo2s-3j1ybi&ust=1698935573770000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNibjq-Co4IDFQAAAAAdAAAAABAk',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'singapore',
             title: 'Singapore Zoo'
         }, {
@@ -186,32 +186,32 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'London'
         },
         {
-            url: 'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSdac0aJ2r_pf8uHHlggtMxaZ3dLcIskpSFdgVEKzn5y3Uek5t-Btjp9TKI7-IbfDJu',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uk',
             title: 'Liverpool'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft3.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcR7W59LgKUwu5V9dzgMxjscJ3WbO8_PdXWuxBBajfo7r1z8MdWchQQhUiioSxuLp4hS&psig=AOvVaw1DwZ5do8zsi6M6o47kFDRs&ust=1698936418393000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODl2MGFo4IDFQAAAAAdAAAAABAI',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uk',
             title: 'Birmingham'
         },
         {
-            url: 'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcT7NdFrWA1QoMPCzuguc4xhhtpU3EMvVg-pXJYZ-BfQnI2o6o9yNjHOb5OnRjo4uoyq',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'uk',
             title: 'Manchester'
         },
         {
-            url: 'https://www.google.com/url?sa=i&url=http%3A%2F%2Ft0.gstatic.com%2Flicensed-image%3Fq%3Dtbn%3AANd9GcSgbZKsOaKZ7PIILSRuI2ITOFldZQ_QaA5Q0o5UfZWfKQ6q0BgvSroxhsMRTTljDqYq&psig=AOvVaw3149i6V-4ey1iT2VZUYVfS&ust=1698937056933000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIijt_GHo4IDFQAAAAAdAAAAABAE',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'ksa',
             title: 'Dammam'
         },
         {
-            url: 'http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRcKsoWVDpgVvpMii-qap7G9ekBg8Tzo-YhNmA2uTHwU6c0V1MoKDcPljpoVp0-dDY8',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'ksa',
             title: 'Kaaba'
         },
         {
-            url: 'http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRzP4mzazEJGjIYiC9x9C_qavN7sO3QGq49XtkOBkOmTfY555geG_dD1v_Rz8c6xOWo',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1920px-London_Skyline_%28125508655%29.jpeg',
             category: 'ksa',
             title: 'Abha'
         },

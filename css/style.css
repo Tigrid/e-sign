@@ -1715,7 +1715,7 @@ footer .last .social div a.youtube:hover span i {
 }
 
 #mission {
-    padding: 100px 0;
+    padding: 60px 0;
     background: #AE0000;
     background-image: url(../images/mission\ bg.png);
     background-size: cover;
@@ -2061,6 +2061,14 @@ footer .last .social div a.youtube:hover span i {
     width: 100%;
     border-radius: 14px;
 }
+
+@media screen and (max-width: 1480px) {
+    #exclusive .slide-box ul li .detailes {
+        margin-top: 32px;
+        min-height: 230px;
+    }
+}
+
 
 @media screen and (max-width: 1380px) {
     #spotlight .main-container .right .img-container {
@@ -3251,11 +3259,14 @@ footer .last .social div a.youtube:hover span i {
     #connect .middle .right #submit-form button a {
         font-size: 16px;
     }
+
     #connect .middle .right #submit-form .detailes input {
         padding: 14px 19px;
     }
-    .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
-        display: none BNBBBBBBG B;
+
+    .leaflet-touch .leaflet-control-layers,
+    .leaflet-touch .leaflet-bar {
+        display: none;
     }
 
 }
